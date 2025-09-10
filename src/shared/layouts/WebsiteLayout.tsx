@@ -1,12 +1,12 @@
 import type { ReactElement } from "react"
-import Navbar from "../components/navbar/Navbar"
+// import Navbar from "../components/navbar/Navbar"
 
 const WebsiteLayout = ({children}: {
     children: ReactElement
 }) => {
     return (
         <>
-            <Navbar />
+            {/* <Navbar /> */}
             { children }
         </>
     )

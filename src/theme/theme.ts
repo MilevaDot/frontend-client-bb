@@ -15,6 +15,10 @@ const theme = extendTheme({
             900: '#310818',
         },
     },
+    fonts: {
+        heading: `'roboto-medium', sans-serif`,
+        body: `'roboto-semibold', sans-serif`,
+    }
 })
 
 export default theme
