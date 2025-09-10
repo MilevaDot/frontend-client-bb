@@ -1,7 +1,7 @@
 import { Box, Button, Center, Divider, FormControl, FormLabel, Heading, HStack, Image, Input, ListItem, Text, UnorderedList, VStack } from '@chakra-ui/react'
 import HelperHelmet from '../../helpers/HelperHelmet'
 import { Link } from 'react-router-dom';
-import { FaInstagram, FaTiktok, FaWalking, FaWhatsapp } from 'react-icons/fa';
+import { FaInstagram, FaTiktok, FaWhatsapp } from 'react-icons/fa';
 import { PiPhoneCallFill } from "react-icons/pi";
 import { FaLocationDot } from "react-icons/fa6";
 import { TfiEmail } from "react-icons/tfi";
@@ -176,42 +176,6 @@ const WebsiteHome = () => {
                     <Text fontWeight='100' fontFamily='roboto-medium' letterSpacing='0.1em'>PROMOS DESTACADAS</Text>
                 </Center>
                 <HStack gap='1.5em' padding='10px 180px'>
-                    {/* <Box position='relative' width='500px'>
-                        <Image src='/card_highlight.png' alt='Card Highlight' />
-                        <Box position='absolute' width='100%' bottom='0'>
-                            <Box padding='0px 10px'>
-                                <HStack gap='0.4em'>
-                                    <Image src='/star.png' width='13px' />
-                                    <Image src='/star.png' width='13px' />
-                                    <Image src='/star.png' width='13px' />
-                                    <Image src='/star.png' width='13px' />
-                                    <Image src='/star.png' width='13px' />
-                                    <Text fontWeight='100' fontSize='10px' color='#666666'>5.0</Text>
-                                </HStack>
-                                <Text fontFamily='roboto-semibold' fontSize='26px'>&lsquo;&lsquo;Mirada Perfecta&rsquo;&rsquo;</Text>
-                                <Text color='#E62D88' fontSize='10px' fontFamily='roboto-medium'>LIFTING DE PESTAÑAS + LAMINADO DE CEJAS + PERFILADO DE CEJAS</Text>
-                                <Text color='#666666' fontSize='10px' fontFamily='roboto-medium'>Ideal para realzar la mirada con un toque natural.</Text>
-                                <HStack justifyContent='space-between' margin='4px 0'>
-                                    <Button
-                                        backgroundColor='#E62D88'
-                                        fontFamily='georgia1'
-                                        color='white'
-                                        fontSize='10px'
-                                        padding='4px 4px'
-                                        fontWeight='100'
-                                        height='100%'
-                                        borderRadius='20px'
-                                        >
-                                        Ver detalles
-                                    </Button>
-                                    <VStack gap={0}>
-                                        <Text textDecor='line-through' color='#666666' fontFamily='roboto-medium' fontSize='8px'>Precio regular: S/120.00</Text>
-                                        <Text fontFamily='roboto-semibold' color='#E62D88' fontSize='24px'>S/70.00</Text>
-                                    </VStack>
-                                </HStack>
-                            </Box>
-                        </Box>
-                    </Box> */}
                     <Box position='relative' width='500px'>
                         <Image src='/card_highlight.png' alt='Card Highlight' />
                         <Box position='absolute' width='100%' bottom='0'>
